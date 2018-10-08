@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LaskujenJako</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="summa_yhteensa">Laskun summa yhteensä</string>
+    <string name="seuraava_nappi">Seuraava</string>
+    <string name="janne_nappi">Jannen</string>
+    <string name="fanny_nappi">Fannyn</string>
+    <string name="nollaa_nappi">Nollaa</string>
+    <string name="kopioi_nappiF">Kopioi leikepöydälle Jannen</string>
+    <string name="kopioi_nappiJ">Kopioi leikepöydälle Fannyn</string>
+    <string name="kaynnista_nappi">Käynnistä SplitWise</string>
+</resources>
