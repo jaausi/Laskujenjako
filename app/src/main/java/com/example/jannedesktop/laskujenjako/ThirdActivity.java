@@ -36,7 +36,7 @@ public class ThirdActivity extends AppCompatActivity {
         buttonCopyOne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(v.getContext(), "Jannen osuus kopioitu leikepöydälle"+" ("+MainActivity.dividendOne +"€)", Toast.LENGTH_SHORT).show();
+                Toast.makeText(v.getContext(), "Person 1 groceries copied to clipboard"+" ("+MainActivity.dividendOne +"€)", Toast.LENGTH_SHORT).show();
 
                 // Copy the information to the clipboard
                 ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
@@ -49,7 +49,7 @@ public class ThirdActivity extends AppCompatActivity {
         buttonCopyTwo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(v.getContext(), "Fannyn osuus kopioitu leikepöydälle"+" ("+MainActivity.dividendTwo +"€)", Toast.LENGTH_SHORT).show();
+                Toast.makeText(v.getContext(), "Person 2 groceries copied to clipboard"+" ("+MainActivity.dividendTwo +"€)", Toast.LENGTH_SHORT).show();
 
                 // Copy the information to the clipboard
                 ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
@@ -62,7 +62,7 @@ public class ThirdActivity extends AppCompatActivity {
         buttonStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(v.getContext(), "SplitWise käynnistetty", Toast.LENGTH_SHORT).show();
+                Toast.makeText(v.getContext(), "Starting SplitWise", Toast.LENGTH_SHORT).show();
                 String url = "https://secure.splitwise.com/api/v3.0/create_expense";
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
