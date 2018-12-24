@@ -11,10 +11,8 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 /**
- * I ran into this problem when I went to the grocery store with my girlfriend we bought some stuff that we share and some stuff just to ourselves.
- * After the bill was handled and we wanted to share it in the Splitwise, we had to first figure out with a calculator how much one person is
- * owning to another, because part of the groceries were shared and part were our own. So this application is made just to ease up the struggle of
- * calculating expenses.
+ * This application is made to ease up the struggle of
+ * calculating expenses between two users.
  */
 public class MainActivity extends AppCompatActivity {
 
